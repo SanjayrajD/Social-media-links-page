@@ -1,0 +1,100 @@
+* 
+{
+    margin:0px;
+    padding: 0px;
+}
+body
+{
+    background-color: black;
+}
+.outerbox 
+{
+    margin:80px 0 0 480px;
+    width: 350px;
+    height: 600px;
+    background-color: rgb(37, 35, 35);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+.outerbox .image 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.outerbox img
+{
+    padding-top: 50px;
+    width: 180px;
+    height: 180px;
+}
+.outerbox h1 
+{
+    padding-top: 8px;
+}
+.outerbox h4 
+{
+    padding-top: 5px;
+    color: greenyellow;
+}
+.outerbox p
+{
+    padding-top: 5px;
+}
+.outerbox .container 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.outerbox .github 
+{
+    font-size: 15px;
+    background-color: rgb(78, 75, 75);
+    padding: 10px 0 10px 0;
+    border-radius: 10px;
+}
+.outerbox .linkedin 
+{
+    font-size: 15px;
+    background-color: rgb(78, 75, 75);
+    padding: 10px 0 10px 0;
+    border-radius: 10px;
+}
+.outerbox .twitter
+{
+    font-size: 15px;
+    background-color: rgb(78, 75, 75);
+    padding: 10px 0 10px 0;
+    border-radius: 10px;
+}
+.outerbox .instagram 
+{
+    font-size: 15px;
+    background-color: rgb(78, 75, 75);
+    padding: 10px 0 10px 0;
+    border-radius: 10px;
+}
+.outerbox .container a 
+{
+    text-decoration: none;
+    color: white
+}
+.outerbox .container a:hover
+{
+    color: black;
+}
+
+@media only screen and (max-width: 600px){
+    .outerbox 
+{
+    margin:0px;
+    width: 318px;
+    height: 600px;
+    padding: 20px;
+    border-radius: 0px;
+}
+
+}
